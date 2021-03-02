@@ -8,13 +8,7 @@ import Layout from '../_layouts/auth';
 import api from '../../_services/api';
 import { formatPrice } from '../../utils';
 import CourseItem from './CourseItem';
-import {
-  CourseList,
-  OpenDetails,
-  OpenOnWeekends,
-  OpenButton,
-  LinkGiveClasses,
-} from './styles';
+import { CourseList, OpenDetails, OpenOnWeekends } from './styles';
 
 interface ICourse {
   id: string;

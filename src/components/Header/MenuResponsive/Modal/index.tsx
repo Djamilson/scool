@@ -1,8 +1,8 @@
 import React, { useRef } from 'react';
 import { FaSignOutAlt } from 'react-icons/fa';
 import { useSpring, animated } from 'react-spring';
-import authRoutes from '../../../../routes/Routes/AuthRoutes';
 
+import authRoutes from '../../../../routes/Routes/AuthRoutes';
 import { colors } from '../../../../styles';
 import IMenu from '../../../../types/menu';
 import {

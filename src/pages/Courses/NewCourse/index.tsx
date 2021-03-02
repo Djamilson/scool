@@ -15,9 +15,6 @@ import Input from '../../../components/Form/Input';
 import { useLoading } from '../../../hooks/loading';
 import { useToast } from '../../../hooks/toast';
 import getValidationErros from '../../../utils/getValidationErros';
-import * as masks from '../../../utils/masks';
-import { schemaValidationCurrency } from '../../../utils/schema';
-import { InputPrice } from './styles';
 
 interface ParamTypes {
   courseId: string;
